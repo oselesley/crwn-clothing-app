@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import { withRouter } from 'react-router-dom'
 import './directory.styles.scss'
-import { MenuItem } from '../menu-item-component/menu-item.component'
+import MenuItem from '../menu-item-component/menu-item.component'
 
 class Directory extends Component {
     constructor () {
@@ -55,4 +56,4 @@ class Directory extends Component {
     }
 } 
 
-export default Directory
+export default withRouter(Directory)
