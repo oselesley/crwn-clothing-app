@@ -5,18 +5,10 @@ import App from './App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-const HatsComponent = () => (
-  <h1>Hats Page</h1>
-)
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch >
-        <Route exact path="/" component={App}/>
-        <Route exact path="/hats" component={HatsComponent} />
-      </Switch>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
