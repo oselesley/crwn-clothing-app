@@ -21,7 +21,7 @@ class ShopPage extends React.Component {
     render () {
         return (
             <div className='shop'>
-                <h1>Shop Page</h1>
+                <h1>Collections</h1>
                 {this.renderPreview()}
             </div>
         )
