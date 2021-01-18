@@ -1,0 +1,15 @@
+.sign-in {
+    width: 30%;
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
